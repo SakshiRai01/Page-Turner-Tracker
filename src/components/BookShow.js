@@ -3,7 +3,6 @@ import BookEdit from './BookEdit';
 
 function BookShow({ book, onDelete, onEdit })
 {
-
     const [showEdit, setShowEdit] = useState(false);
 
     const handleDeleteClick = () => {
